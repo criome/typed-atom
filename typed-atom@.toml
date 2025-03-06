@@ -1,0 +1,13 @@
+[atom]
+id = "typed-atom"
+version = "0.1.0"
+propagate = true
+
+[std]
+features = ["lib"]
+
+[backend.nix]
+fetcher = "flake-lock"
+
+[fetch.rust-atom]
+name = "rust-atom"
